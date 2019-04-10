@@ -1,32 +1,50 @@
----
-typora-copy-images-to: ipic
----
+### 
 
 # DataStructure
 
-## 资料
+## 资源
 
 ### 书籍
 
-* 《大话数据结构》
+* 《大话数据结构》[[python code]](https://github.com/hugooood/DataStruct)  [在看]
 * 《算法图解》
 * 《算法》[[github]](<https://github.com/jeffgerickson/algorithms>) [[在线阅读]](http://jeffe.cs.illinois.edu/teaching/algorithms/#book)  *Algorithms* by [Jeff Erickson](http://jeffe.cs.illinois.edu/)
 
+### 课程
+
+- 数据结构与算法2019春季  [[课程网址]](http://gis4g.pku.edu.cn/course/pythonds/) by 北京大学新一代GIS教研室
+- python数据结构与算法系列课程  [[B站地址]](https://www.bilibili.com/video/av17888581?p=3) [在看]
+- 数据结构与算法之美 [[极客时间]](https://time.geekbang.org/column/intro/126)
+- Python数据结构与算法教程  [[github]](<https://github.com/PegasusWang/python_data_structures_and_algorithms>)
+- 算法面试通过40讲  [[B站地址]](https://www.bilibili.com/medialist/play/ml418565700/av41612881) [在看]
+## 学习记录
+
+### 日程
+
+4.9 《大话数据结构》[86/439] 数据结构与算法[19/44]  算法面试通关40讲 [0/62] 华为机试[13/108]
+
+###  Review
+
+数据结构：
+
+- [x] 顺序表 [大话数据结构 第三章 线性表] (4.8)
+- [x] 链表 [大话数据结构 第三章 线性表 ] [数据结构与算法 第四节]（4.8看理论，4.9python实现）
+- [x] 栈&队列[数据结构与算法 第三节]（4.9 理论+python实现）
+- [ ] 串 
+- [ ] 树 
+- [ ] 图
+
+算法：
+
+- [ ]  动态规划
+- [ ]   贪心算法
+
+贪心算法
+
+4.10 复习单链表&栈&队列
 
 
-### 代码资源
 
-- [大话数据结构 python实现](https://github.com/search?l=Python&q=%E5%A4%A7%E8%AF%9D%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84&type=Repositories/)
-
-- [数据结构与算法分析 python](https://github.com/PegasusWang/python_data_structures_and_algorithms)
-
-
-
-  ### 课程
-
-- [北大数据结构与算法分析 python](http://gis4g.pku.edu.cn/course/pythonds/)
-- [数据结构与算法分析 B站 python](https://www.bilibili.com/video/av17888581?p=3)
-- [极客时间 数据结构与算法之美](https://time.geekbang.org/column/intro/126)
 ## 如何学好
 
 ### 精通一个领域
@@ -35,7 +53,7 @@ typora-copy-images-to: ipic
 
   - 要注重每块之间的脉络和联系（如下所示是数据结构之间的脉络联系）
 
-   ![](https://ws2.sinaimg.cn/large/006tNc79ly1g1xddwravfj31ng0t6dim.jpg)
+  ![](https://ws2.sinaimg.cn/large/006tNc79ly1g1xddwravfj31ng0t6dim.jpg)
 
   ![](https://ws3.sinaimg.cn/large/006tNc79ly1g1xdgpsnblj31cs0u0tcm.jpg)
 
@@ -57,7 +75,7 @@ typora-copy-images-to: ipic
   - 被动型反馈（高手给你指点）
 
     - Code review
-    - 
+    
 > Source:《异类-不一样的成功启示录》
 
 ### 切题四件套
@@ -69,10 +87,4 @@ typora-copy-images-to: ipic
 
 - Coding (多写)
 - Test Cases
-
-
-​    
-
-
-
-
+  
