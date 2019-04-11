@@ -12,18 +12,13 @@
 
 ### 课程
 
-- 数据结构与算法2019春季  [[课程网址]](http://gis4g.pku.edu.cn/course/pythonds/) by 北京大学新一代GIS教研室
-- python数据结构与算法系列课程  [[B站地址]](https://www.bilibili.com/video/av17888581?p=3) [在看]
+- python数据结构与算法系列课程  [[B站地址]](https://www.bilibili.com/video/av17888581?p=3) [[code]](https://github.com/JackKuo666/Data_Structure_with_Python) [在看]
+- 算法面试通过40讲  [[B站地址]](https://www.bilibili.com/medialist/play/ml418565700/av41612881) [在看]
 - 数据结构与算法之美 [[极客时间]](https://time.geekbang.org/column/intro/126)
 - Python数据结构与算法教程  [[github]](<https://github.com/PegasusWang/python_data_structures_and_algorithms>)
-- 算法面试通过40讲  [[B站地址]](https://www.bilibili.com/medialist/play/ml418565700/av41612881) [在看]
+- 数据结构与算法2019春季  [[课程网址]](http://gis4g.pku.edu.cn/course/pythonds/) by 北京大学新一代GIS教研室
+
 ## 学习记录
-
-### 日程
-
-4.9 《大话数据结构》[86/439] 数据结构与算法[19/44]  算法面试通关40讲 [0/62] 华为机试[13/108]
-
-###  Review
 
 数据结构：
 
@@ -38,10 +33,6 @@
 
 - [ ]  动态规划
 - [ ]   贪心算法
-
-贪心算法
-
-4.10 复习单链表&栈&队列
 
 
 
@@ -88,3 +79,4 @@
 - Coding (多写)
 - Test Cases
   
+
