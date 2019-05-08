@@ -7,6 +7,20 @@
 #### 题型
 
 - 剑指offer（c++）
-  - [不修改找出重复数字](/Users/weijunzeng/Documents/Work/Code/DataStructure/剑指offer/03不修改找出重复的数字md)
-  - [数组中的重复数字](/Users/weijunzeng/Documents/Work/Code/DataStructure/剑指offer/03数组中的重复数字.md)
-  - [二维数组的查找](/Users/weijunzeng/Documents/Work/Code/DataStructure/剑指offer/04二维数组的查找.md)
+  - [不修改找出重复数字](/剑指offer/03不修改找出重复的数字md)（5.7）
+  - [数组中的重复数字](/剑指offer/03数组中的重复数字.md)（5.7）
+  - [二维数组的查找](/剑指offer/04二维数组的查找.md)（5.8）
+
+### 字符串
+
+#### 题型
+
+- 剑指offer（c++）
+  - [替换空格](/剑指offer/05替换空格.md)（5.8）
+
+### 链表
+
+#### 题型
+
+- 剑指offer（c++)
+  - [从尾到头打印链表](/Users/weijunzeng/Documents/Work/Code/DataStructure/剑指offer/06从尾到头打印链表.md)（5.8）
