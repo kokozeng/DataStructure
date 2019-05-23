@@ -23,4 +23,5 @@
 #### 题型
 
 - 剑指offer（c++)
-  - [从尾到头打印链表](/Users/weijunzeng/Documents/Work/Code/DataStructure/剑指offer/06从尾到头打印链表.md)（5.8）
+  - [从尾到头打印链表](/剑指offer/06从尾到头打印链表.md)（5.8）
+
