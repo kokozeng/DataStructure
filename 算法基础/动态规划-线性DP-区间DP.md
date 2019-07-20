@@ -59,7 +59,7 @@ $$
 
 #### 状态转移思路
 
-![image-20190719233254999](/Users/weijunzeng/Documents/Work/Code/image/image-20190719233254999.png)
+![image-20190719233254999](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-81157.jpg)
 
 #### 代码
 
@@ -137,7 +137,7 @@ $$−10^9≤$$数列中的数$$≤10^9$$
 
 #### 状态转移
 
-![image-20190719225034740](/Users/weijunzeng/Documents/Work/Code/image/image-20190719225034740.png)
+![image-20190719225034740](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081156.jpg)
 $$
 f_i = (max(f[j] + 1)|f_j < f_i, j = 0, ..., i-1)
 $$
@@ -186,7 +186,7 @@ int main()
 
 把转移记录下来
 
-![image-20190719231102032](/Users/weijunzeng/Documents/Work/Code/image/image-20190719231102032.png)
+![image-20190719231102032](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-81151.jpg)
 
 ### 最长公共子序列问题
 
@@ -230,7 +230,7 @@ abedc
 
 两个序列所以用两维来表示
 
-![image-20190719235237758](/Users/weijunzeng/Documents/Work/Code/image/image-20190719235237758.png)
+![image-20190719235237758](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081151.jpg)
 
 #### 代码
 
@@ -261,11 +261,11 @@ int main()
 }
 ```
 
-![image-20190719235950644](/Users/weijunzeng/Documents/Work/Code/image/image-20190719235950644.png)
+![image-20190719235950644](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081152.jpg)
 
 为什么int a, b 不行？
 
-![image-20190720150110237](/Users/weijunzeng/Documents/Work/Code/image/image-20190720150110237.png)
+![image-20190720150110237](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081153.jpg)
 
 ## 区间DP
 
@@ -319,14 +319,14 @@ $$
 
 以最后一次分界线的位置来分类：
 
-![image-20190720151554836](/Users/weijunzeng/Documents/Work/Code/image/image-20190720151554836.png)
+![image-20190720151554836](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081150.jpg)
 
-![image-20190720151947463](/Users/weijunzeng/Documents/Work/Code/image/image-20190720151947463.png)
+![image-20190720151947463](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081155.jpg)
 
-![image-20190720152012674](/Users/weijunzeng/Documents/Work/Code/image/image-20190720152012674.png)
+![image-20190720152012674](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081147.jpg)
 
 #### 代码
 
-![image-20190720152933473](/Users/weijunzeng/Documents/Work/Code/image/image-20190720152933473.png)
+![image-20190720152933473](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081148.jpg)
 
 先循环区间长度，然后循环区间的左端点，再枚举决策。
