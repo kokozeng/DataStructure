@@ -23,8 +23,8 @@ By the way，感谢Y神。
 
 ### 基础算法
 
-- [排序](/Users/weijunzeng/Documents/Work/Code/DataStructure/算法基础/基础算法-排序-二分.md)☑️（快速排序、归并排序）
-- [二分](/Users/weijunzeng/Documents/Work/Code/DataStructure/算法基础/基础算法-排序-二分.md)☑️（整数二分、浮点数二分）
+- [排序](/算法基础/基础算法-排序-二分.md)☑️（快速排序、归并排序）
+- [二分](/算法基础/基础算法-排序-二分.md)☑️（整数二分、浮点数二分）
 - 高精度
 - 前缀和与差分
 - 双指针算法
