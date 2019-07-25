@@ -391,11 +391,29 @@ public:
 };
 ```
 
-6、
+###   [Leetcode206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
-![image-20190721210028724](/Users/weijunzeng/Documents/Work/Code/image/image-20190721210028724.png)
+#### 题目描述
+
+反转一个单链表。
+
+示例:
+
+```
+输入: 1->2->3->4->5->NULL
+输出: 5->4->3->2->1->NULL
+```
+
+进阶:
+你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
+
+#### 题解
+
+
 
 ![image-20190721210510554](/Users/weijunzeng/Documents/Work/Code/image/image-20190721210510554.png)
+
+#### 代码
 
 ```c++
 /**
@@ -416,19 +434,39 @@ public:
         {
             auto c = b->next;
             b->next = a;
-            a = b, b = c;
+            a = b, b = c; //注意这里是有次序的
         }
         
-        head->next = NULL;
+        head->next = NULL; 
         
         return a;
     }
 };
 ```
 
-再看下视频吧。。。大概直播到一个小时
 
-7、
+
+### [Leetcode92 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+
+#### 题目描述
+
+反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
+
+说明:
+1 ≤ m ≤ n ≤ 链表长度。
+
+示例:
+
+```
+输入: 1->2->3->4->5->NULL, m = 2, n = 4
+输出: 1->4->3->2->5->NULL
+```
+
+#### 题解
+
+![image-20190725152312305](/Users/weijunzeng/Documents/Work/Code/image/image-20190725152312305.png)
+
+#### 大佬代码
 
 ```c++
 /**
@@ -468,7 +506,49 @@ public:
 };
 ```
 
-这个包含了反转链表
+#### 我的代码
+
+```c++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int m, int n) {
+        if(m > n) return NULL;
+        if(m == n) return head;
+        
+        auto dummy = new ListNode(-1);
+        dummy->next = head;
+        
+        auto c = dummy, a = dummy;
+        while(n --) c = c->next;
+        auto d = c->next;
+        m = m - 1;
+        while(m --) a = a->next;
+        auto b = a->next;
+        
+        auto i = b, j = i->next;
+        while(i != c)
+        {
+            auto w = j->next;
+            j->next = i;
+            i = j, j = w;
+        }
+        
+        a->next = c;
+        b->next = d;
+        
+        return dummy->next;
+        
+    }
+};
+```
 
 8、
 

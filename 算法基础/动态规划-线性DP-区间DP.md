@@ -261,10 +261,8 @@ int main()
 }
 ```
 
-![image-20190719235950644](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081152.jpg)
-
-为什么int a, b 不行？
-
+为什么int a, b报错的解释：
+int 是四个字节，后面的全为0。
 ![image-20190720150110237](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-20-081153.jpg)
 
 ## 区间DP

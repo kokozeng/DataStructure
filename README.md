@@ -23,8 +23,8 @@ By the way，感谢Y神。
 
 ### 基础算法
 
-- 排序
-- 二分
+- 排序☑️（快速排序、归并排序）
+- 二分☑️（整数二分、浮点数二分）
 - 高精度
 - 前缀和与差分
 - 双指针算法
@@ -96,6 +96,19 @@ Leetcode将会做一些分类做更新，初步大概会有八个分类，两个
 - LeetCode 162. Find Peak Element 
 - LeetCode 287. Find the Duplicate Number
 - LeetCode 275. H-Index II
+
+### 链表
+
+- LeetCode 19. Remove Nth Node From End of List 
+- LeetCode 237. Delete Node in a Linked List 
+- LeetCode 83. Remove Duplicates from Sorted List
+- LeetCode 61. Rotate List 
+- LeetCode 24. Swap Nodes in Pairs 
+- LeetCode 206. Reverse Linked List 
+- LeetCode 92. Reverse Linked List II 
+- LeetCode 160. Intersection of Two Linked Lists
+- LeetCode 142. Linked List Cycle II 
+- LeetCode 148. Sort List
 
 ## 剑指offer
 
