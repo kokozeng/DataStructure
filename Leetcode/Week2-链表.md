@@ -1,3 +1,4 @@
+
 [TOC]
 
 边界节点的处理
@@ -34,7 +35,7 @@
 
 #### 题解
 
-![image-20190721201606628](/Users/weijunzeng/Documents/Work/Code/image/image-20190721201606628.png)
+![image-20190725153153680](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-073154.png)
 
 #### 代码
 
@@ -75,9 +76,7 @@ public:
 
 现有一个链表 -- head = [4,5,1,9]，它可以表示为:
 
-![image-20190722121216726](/Users/weijunzeng/Documents/Work/Code/image/image-20190722121216726.png)
-
- 
+![image-20190725153217467](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-073218.png)
 
 **示例 1:**
 
@@ -108,7 +107,7 @@ public:
 
 把当前的点伪装成下一个点，然后把下一个点删掉。
 
-![image-20190721202702123](/Users/weijunzeng/Documents/Work/Code/image/image-20190721202702123.png)
+![image-20190725153340021](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-073340.png)
 
 #### 代码
 
@@ -210,7 +209,8 @@ Leetcode 82也做一下
 ```
 
 #### 题解
-![image-20190721204643443](/Users/weijunzeng/Documents/Work/Code/image/image-20190721204643443.png)
+
+![image-20190725153410676](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-073535.jpg)
 
 #### 大佬代码
 
@@ -313,7 +313,7 @@ public:
 
 #### 题解
 
-![image-20190721205431827](/Users/weijunzeng/Documents/Work/Code/image/image-20190721205431827.png)
+![image-20190725153437292](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-073534.jpg)
 
 p->next = b;
 
@@ -409,9 +409,7 @@ public:
 
 #### 题解
 
-
-
-![image-20190721210510554](/Users/weijunzeng/Documents/Work/Code/image/image-20190721210510554.png)
+![image-20190725153459495](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-73536.jpg)
 
 #### 代码
 
@@ -464,7 +462,7 @@ public:
 
 #### 题解
 
-![image-20190725152312305](/Users/weijunzeng/Documents/Work/Code/image/image-20190725152312305.png)
+![image-20190725153514235](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-25-073533.jpg)
 
 #### 大佬代码
 
