@@ -23,10 +23,10 @@ By the way，感谢Y神。
 
 ### 基础算法
 
-- [排序](/算法基础/基础算法-排序-二分.md)☑️（快速排序、归并排序）
-- [二分](/算法基础/基础算法-排序-二分.md)☑️（整数二分、浮点数二分）
-- 高精度
-- 前缀和与差分
+- [排序](/算法基础/基础算法01-排序-二分.md)☑️（快速排序、归并排序）
+- [二分](/算法基础/基础算法02-排序-二分.md)☑️（整数二分、浮点数二分）
+- [高精度](/算法基础/基础算法02-高精度.md)☑️（高精度加、减、乘、除）
+- [前缀和与差分](/算法基础/基础算法03-前缀和-差分.md)☑️（一维、二维前缀和与差分）
 - 双指针算法
 - 位运算
 - 离散化
@@ -66,9 +66,9 @@ By the way，感谢Y神。
 
 ### 动态规划
 
-- 背包问题 ☑️
-- 线性DP☑️
-- 区间DP☑️
+- [背包问题](/算法基础/动态规划-背包问题.md) ☑️
+- [线性DP](/算法基础/动态规划-线性DP-区间DP.md)☑️
+- [区间DP](/算法基础/动态规划-线性DP-区间DP.md)☑️
 - 计数类DP
 - 数位统计DP
 - 状态压缩DP
@@ -84,7 +84,7 @@ By the way，感谢Y神。
 
 Leetcode将会做一些分类做更新，初步大概会有八个分类，两个月更完。
 
-### 二分
+### [二分](/Leetcode/Week1-二分算法.md)
 
 - LeetCode 69. Sqrt(x) 
 - LeetCode 35. Search Insert Position
@@ -97,7 +97,7 @@ Leetcode将会做一些分类做更新，初步大概会有八个分类，两个
 - LeetCode 287. Find the Duplicate Number
 - LeetCode 275. H-Index II
 
-### 链表
+### [链表](/Leetcode/Week2-链表.md)
 
 - LeetCode 19. Remove Nth Node From End of List 
 - LeetCode 237. Delete Node in a Linked List 

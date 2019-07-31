@@ -518,12 +518,14 @@ public:
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
+      //边界条件
         if(m > n) return NULL;
         if(m == n) return head;
         
         auto dummy = new ListNode(-1);
         dummy->next = head;
         
+      //定义a,b,c,d
         auto c = dummy, a = dummy;
         while(n --) c = c->next;
         auto d = c->next;
@@ -531,6 +533,7 @@ public:
         while(m --) a = a->next;
         auto b = a->next;
         
+      //反转b到c
         auto i = b, j = i->next;
         while(i != c)
         {
@@ -539,6 +542,7 @@ public:
             i = j, j = w;
         }
         
+      //将反转的接回链表
         a->next = c;
         b->next = d;
         
@@ -548,7 +552,61 @@ public:
 };
 ```
 
-8、
+### [LeetCode 160  相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) 
+
+####  题目描述
+
+编写一个程序，找到两个单链表相交的起始节点。
+
+如下面的两个链表：
+
+![image-20190728235258859](/Users/weijunzeng/Documents/Work/Code/image/image-20190728235258859.png)
+
+在节点 c1 开始相交。
+
+ 
+
+**示例 1：**
+
+![image-20190728235310595](/Users/weijunzeng/Documents/Work/Code/image/image-20190728235310595.png)
+
+```
+输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
+输出：Reference of the node with value = 8
+输入解释：相交节点的值为 8 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [4,1,8,4,5]，链表 B 为 [5,0,1,8,4,5]。在 A 中，相交节点前有 2 个节点；在 B 中，相交节点前有 3 个节点。
+```
+
+**示例 2：**
+
+![image-20190728235352263](/Users/weijunzeng/Documents/Work/Code/image/image-20190728235352263.png)
+
+```
+输入：intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
+输出：Reference of the node with value = 2
+输入解释：相交节点的值为 2 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [0,9,1,2,4]，链表 B 为 [3,2,4]。在 A 中，相交节点前有 3 个节点；在 B 中，相交节点前有 1 个节点。
+```
+
+**示例 3：**
+
+![image-20190728235416819](/Users/weijunzeng/Documents/Work/Code/image/image-20190728235416819.png)
+
+```
+输入：intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
+输出：null
+输入解释：从各自的表头开始算起，链表 A 为 [2,6,4]，链表 B 为 [1,5]。由于这两个链表不相交，所以 intersectVal 必须为 0，而 skipA 和 skipB 可以是任意值。
+解释：这两个链表不相交，因此返回 null。
+```
+
+**注意：**
+
+```
+如果两个链表没有交点，返回 null.
+在返回结果后，两个链表仍须保持原有的结构。
+可假定整个链表结构中没有循环。
+程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
+```
+
+#### 代码
 
 ```c++
 /**
@@ -576,7 +634,50 @@ public:
 };
 ```
 
-9、
+### [Leetcode142 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+
+#### 题目描述
+
+给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
+
+为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
+
+说明：不允许修改给定的链表。
+
+**示例 1：**
+
+![image-20190730112901597](/Users/weijunzeng/Documents/Work/Code/image/image-20190730112901597.png)
+
+```
+输入：head = [3,2,0,-4], pos = 1
+输出：tail connects to node index 1
+解释：链表中有一个环，其尾部连接到第二个节点。
+```
+
+**示例 2：**
+
+![image-20190730112916373](/Users/weijunzeng/Documents/Work/Code/image/image-20190730112916373.png)
+
+```
+输入：head = [1,2], pos = 0
+输出：tail connects to node index 0
+解释：链表中有一个环，其尾部连接到第一个节点。
+```
+
+**示例 3：**
+
+```
+输入：head = [1], pos = -1
+输出：no cycle
+解释：链表中没有环。
+```
+
+
+
+进阶：
+你是否可以不用额外空间解决此题？
+
+#### 代码
 
 ```c++
 /**
@@ -590,18 +691,19 @@ public:
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
+        
         auto fast = head, slow = head;
-        while (slow)
+        while(fast)
         {
             fast = fast->next;
             slow = slow->next;
-            if (slow) slow = slow->next;
+            if (fast) fast = fast->next;
             else break;
             
             if (fast == slow)
             {
                 slow = head;
-                while (slow != fast)
+                while (fast != slow)
                 {
                     fast = fast->next;
                     slow = slow->next;
@@ -611,12 +713,11 @@ public:
             }
         }
         
-        return NULL;
+        return NULL;     
+        
     }
 };
 ```
-
-重看一遍
 
 10、
 
