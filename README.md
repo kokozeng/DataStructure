@@ -27,7 +27,7 @@ By the way，感谢Y神。
 - [二分](/算法基础/基础算法02-排序-二分.md)☑️（整数二分、浮点数二分）
 - [高精度](/算法基础/基础算法02-高精度.md)☑️（高精度加、减、乘、除）
 - [前缀和与差分](/算法基础/基础算法03-前缀和-差分.md)☑️（一维、二维前缀和与差分）
-- 双指针算法
+- [双指针算法](/算法基础/基础算法04-双指针算法.md)☑️
 - 位运算
 - 离散化
 - 区间合并
@@ -86,29 +86,11 @@ Leetcode将会做一些分类做更新，初步大概会有八个分类，两个
 
 ### [二分](/Leetcode/Week1-二分算法.md)
 
-- LeetCode 69. Sqrt(x) 
-- LeetCode 35. Search Insert Position
-- LeetCode 34. Find First and Last Position of Element in Sorted Array 
-- LeetCode 74. Search a 2D Matrix 
-- LeetCode 153. Find Minimum in Rotated Sorted Array 
-- LeetCode 33. Search in Rotated Sorted Array
-- LeetCode 278. First Bad Version 
-- LeetCode 162. Find Peak Element 
-- LeetCode 287. Find the Duplicate Number
-- LeetCode 275. H-Index II
-
 ### [链表](/Leetcode/Week2-链表.md)
 
-- LeetCode 19. Remove Nth Node From End of List 
-- LeetCode 237. Delete Node in a Linked List 
-- LeetCode 83. Remove Duplicates from Sorted List
-- LeetCode 61. Rotate List 
-- LeetCode 24. Swap Nodes in Pairs 
-- LeetCode 206. Reverse Linked List 
-- LeetCode 92. Reverse Linked List II 
-- LeetCode 160. Intersection of Two Linked Lists
-- LeetCode 142. Linked List Cycle II 
-- LeetCode 148. Sort List
+### [树](/Leetcode/Week3-树.md)
+
+### [字符串](/Leetcode/Week4-字符串.md)
 
 ## 剑指offer
 

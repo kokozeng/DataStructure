@@ -740,14 +740,17 @@ public:
         auto dummy = new ListNode(-1);
         dummy->next = head;
         
+      // 扫描长度为2i的每一顿
         for (int i = 1; i < n; i *= 2)
         {
+          	//枚举每一段
             auto cur = dummy;
             for (int j = 0; j + i < n; j += i * 2)
             {
                 auto left = cur->next, right = cur->next;
-                for (int k = 0; k < i; k ++ ) right = right->next;
+                for (int k = 0; k < i; k ++ ) right = right->next;//right的往后i步
                 int l = 0, r = 0;
+              //最后一段可能不全，所以要加right 
                 while (l < i && r < i && right)
                     if (left->val <= right->val)
                     {
