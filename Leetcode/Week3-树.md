@@ -58,7 +58,7 @@ public:
 
 #### 题解
 
-![image-20190802115453816](/Users/weijunzeng/Documents/Work/Code/image/image-20190802115453816.png)
+![image-20190802115453816](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045309.jpg)
 
 #### 代码
 
@@ -159,7 +159,7 @@ public:
 
 
 
-![image-20190728204323183](/Users/weijunzeng/Documents/Work/Code/image/image-20190728204323183.png)
+![image-20190728204323183](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045307.jpg)
 
 #### 代码
 
@@ -369,7 +369,7 @@ public:
 
 例如，给定如下二叉树:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
-![img](/Users/weijunzeng/Documents/Work/Code/image/binarytree.png)
+![img](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045310.jpg)
 
  
 
@@ -392,7 +392,7 @@ public:
 
 #### 题解
 
-![image-20190802153032987](/Users/weijunzeng/Documents/Work/Code/image/image-20190802153032987.png) 
+![image-20190802153032987](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045308.jpg) 
 
 #### 代码
 
@@ -415,7 +415,7 @@ public:
         auto right = lowestCommonAncestor(root->right, p, q);
         
         if (!left) return right;
-        if(!right) return left;
+        if (!right) return left;
         return root;
         
     }
@@ -424,7 +424,7 @@ public:
 
 ### LeetCode 543. Diameter of Binary Tree
 
-![image-20190813193218039](/Users/weijunzeng/Documents/Work/Code/image/image-20190813193218039.png)
+![image-20190813193218039](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045311.jpg)
 
 ```c++
 class Solution {

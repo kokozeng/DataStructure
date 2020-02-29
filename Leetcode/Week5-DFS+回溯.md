@@ -16,7 +16,7 @@
 
 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
-![image-20190822201941750](/Users/weijunzeng/Documents/Work/Code/image/image-20190822201941750.png)
+![image-20190822201941750](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045352.jpg)
 
 示例:
 
@@ -41,7 +41,7 @@ for 每个数字
 
 ​				将s加入到新的集合中去
 
-![image-20190822202657591](/Users/weijunzeng/Documents/Work/Code/image/image-20190822202657591.png)
+![image-20190822202657591](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045349.jpg)
 
  ### 代码
 
@@ -178,11 +178,11 @@ public:
 
 2.1、枚举每一个位置上该放哪个数
 
-![image-20190823103142590](/Users/weijunzeng/Documents/Work/Code/image/image-20190823103142590.png)
+![image-20190823103142590](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045350.jpg)
 
 2.2、枚举每个数放到哪个位置上
 
-![image-20190823103435305](/Users/weijunzeng/Documents/Work/Code/image/image-20190823103435305.png)
+![image-20190823103435305](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-45351.jpg)
 
 ### 代码
 
@@ -254,5 +254,5 @@ public:
 
 ### 代码
 
-![image-20190823113639647](/Users/weijunzeng/Documents/Work/Code/image/image-20190823113639647.png)
+![image-20190823113639647](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045351.jpg)
 

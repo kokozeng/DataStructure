@@ -156,6 +156,7 @@ public:
         int k = 0;
         for(int i = 0; i < s.size(); i ++)
         {
+           // 删除前面的空格
             while(i < s.size() && s[i] == ' ') i ++; //从某点找到连续的一段都用这种方法，很经典
             if(i == s.size()) break;
             int j = i;
@@ -299,7 +300,7 @@ https://blog.csdn.net/zhanglu5227/article/details/7895744
 ### 代码
 
 
-![image-20190809222913020](/Users/weijunzeng/Documents/Work/Code/image/image-20190809222913020.png)
+![image-20190809222913020](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045340.jpg)
 
 ```c++
 class Solution {
@@ -346,7 +347,7 @@ public:
 输出: "bb"
 ```
 
-### 题解 ![image-20190809231528123](/Users/weijunzeng/Documents/Work/Code/image/image-20190809231528123.png)
+### 题解 ![image-20190809231528123](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045339.jpg)
 
 ### 代码
 
@@ -374,9 +375,35 @@ public:
 
 # 07 
 
-![image-20190813183332328](/Users/weijunzeng/Documents/Work/Code/image/image-20190813183332328.png)
+![image-20190813183332328](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2020-02-29-045341.jpg)
 
-![image-20190813183222430](/Users/weijunzeng/Documents/Work/Code/image/image-20190813183222430.png)
+```c++
+class Solution {
+public:
+    string convert(string s, int n) {
+        if (n == 1) return s;
+        string res;
+        for (int i = 0; i < n; i ++ )
+        {
+            if (!i || i == n - 1)
+            {
+                for (int j = i; j < s.size(); j += 2 * (n - 1)) res += s[j];
+            }
+            else
+            {
+                for (int j = i, k = 2 * (n - 1) - i; j < s.size() || k < s.size(); j += 2 * (n - 1), k += 2 * (n - 1))
+                {
+                    if (j < s.size()) res += s[j];
+                    if (k < s.size()) res += s[k];
+                }
+            }
+        }
+        return res;
+    }
+};
+```
+
+
 
 # 08
 
